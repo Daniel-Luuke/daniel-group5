@@ -6,7 +6,7 @@ switch (true) {
   case randomNum % 5 === 0:
     console.log("buzz");
     break;
-  case randomNum % 3 === 0 && randomNum & 5 ===0:
+  case randomNum % 3 === 0 && randomNum % 5 ===0:
     console.log("fizzbuzz");
     break;
   default:
